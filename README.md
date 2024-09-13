@@ -43,7 +43,7 @@ Change "Branches to build" from "master" to "main".
 - **Create a Webhook:**
   - Go to your GitHub repository and navigate to Settings > Webhooks.
   - Click "Add webhook".
-  - In the Payload URL field, enter http://<your_ec2_instance_public_ip>:8080/github-webhook/.
+  - In the Payload URL field, enter http://<your_ec2_instance_public_ip>:8080/github-webhook/
   - For Content type, choose "application/json".
   - Check the box labeled "Send me everything" for the triggers.
   - Click "Add webhook" to save.
